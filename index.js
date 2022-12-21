@@ -87,9 +87,9 @@ document.getElementById('update').addEventListener("click", () => {
   savebtn.setAttribute("id","save");
 	savebtn.setAttribute("onclick","manageData()");
 
-
-	document.getElementById('name').value = ""
-	document.getElementById('author').value = ""
+  document.getElementById("hide").value ="";
+	document.getElementById('name').value = "";
+	document.getElementById('author').value = "";
 	document.getElementById('no').value = "";
 });
 
